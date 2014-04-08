@@ -1,6 +1,9 @@
 // 終端機編譯：
-// C:\Users\scott\workspace\test_orm\src>javac -classpath C:/Users/scott/Downloads/hibernate-release-4.2.11.Final/lib/required/*;. test.java
-// -classpath C:/Users/scott/Downloads/hibernate-release-4.2.11.Final/lib/required/*;. 其中 . 代表當前路徑, 因為有 City Class。
+// 	javac -classpath C:/Users/scott/Downloads/hibernate-release-4.2.11.Final/lib/required/*;. test.java
+// 	-classpath C:/Users/scott/Downloads/hibernate-release-4.2.11.Final/lib/required/*;. 其中 . 代表當前路徑, 因為有 City Class。
+
+// 終端機執行：
+// 	java -classpath C:/Users/scott/Downloads/hibernate-release-4.2.11.Final/lib/required/*;. test
 
 import org.zttc.itat.model.City;
 import java.util.Iterator;

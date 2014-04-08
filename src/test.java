@@ -34,6 +34,7 @@ public class test {
 			City a_city = (City) city.next();
 			System.out.println(a_city.getid());
 			System.out.println(a_city.getName());
+			System.out.println(a_city.getCountryCode());
 			break;
 		}
 		

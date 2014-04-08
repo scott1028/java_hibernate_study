@@ -10,9 +10,12 @@
         </id>
     
     <property name="name"/>
+    <!-- 可以只參照部分欄位 -->
+    <!--
     <property name="CountryCode"/>
     <property name="District"/>
     <property name="Population" />
+    -->
      
     </class>
 </hibernate-mapping>

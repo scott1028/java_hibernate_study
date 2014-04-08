@@ -14,13 +14,7 @@ import org.hibernate.cfg.Configuration;
 import org.hibernate.service.*;
 
 public class test {
-
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
 		Configuration cfg=new Configuration().configure();
 		ServiceRegistry serviceRegistry = new ServiceRegistryBuilder().applySettings(cfg.getProperties()).buildServiceRegistry();
 		SessionFactory c=cfg.buildSessionFactory(serviceRegistry);

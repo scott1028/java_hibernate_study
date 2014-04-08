@@ -8,11 +8,11 @@
         <id name="id">
             <generator class="native"/>
         </id>
-    <!--
+    
     <property name="name"/>
     <property name="CountryCode"/>
     <property name="District"/>
     <property name="Population" />
-     -->
+     
     </class>
 </hibernate-mapping>

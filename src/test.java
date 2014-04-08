@@ -1,9 +1,9 @@
-// ²×ºİ¾÷½sÄ¶¡G
-// 	javac -classpath C:/Users/scott/Downloads/hibernate-release-4.2.11.Final/lib/required/*;C:/Program Files (x86)/MySQL/onnector J 5.1.26/*;. test.java
-// 	-classpath C:/Users/scott/Downloads/hibernate-release-4.2.11.Final/lib/required/*;. ¨ä¤¤ . ¥Nªí·í«e¸ô®|, ¦]¬°¦³ City Class¡C
+// çµ‚ç«¯æ©Ÿç·¨è­¯ï¼š
+// 	javac -classpath "C:/Users/scott/Downloads/hibernate-release-4.2.11.Final/lib/required/*;C:/Program Files (x86)/MySQL/onnector J 5.1.26/*;." test.java -encoding utf-8
+// 	-classpath "C:/Users/scott/Downloads/hibernate-release-4.2.11.Final/lib/required/*;C:/Program Files (x86)/MySQL/onnector J 5.1.26/*;." å…¶ä¸­ . ä»£è¡¨ç•¶å‰è·¯å¾‘, å› ç‚ºæœ‰ City Classã€‚
 
-// ²×ºİ¾÷°õ¦æ¡G
-// 	java -classpath C:/Users/scott/Downloads/hibernate-release-4.2.11.Final/lib/required/*;C:/Program Files (x86)/MySQL/onnector J 5.1.26/*;. test
+// çµ‚ç«¯æ©ŸåŸ·è¡Œï¼š
+// 	java -classpath "C:/Users/scott/Downloads/hibernate-release-4.2.11.Final/lib/required/*;C:/Program Files (x86)/MySQL/onnector J 5.1.26/*;." test
 
 import org.zttc.itat.model.City;
 import java.util.Iterator;

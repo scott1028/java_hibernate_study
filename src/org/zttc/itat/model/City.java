@@ -7,7 +7,7 @@ public class City {
 	public String District;
 	public int Population;
 	
-	// ©w¸q¾Ş§@¤¶­±, ¨S¼g Hibernate ·|¸õ¿ù
+	// å¦‚æœæ²’æœ‰å®šç¾©å­˜å–ä»‹é¢æœƒè·³éŒ¯
 	public int getid(){
 		return this.id;
 	}

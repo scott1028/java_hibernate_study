@@ -3,9 +3,9 @@ package org.zttc.itat.model;
 public class City {
 	public int id;
 	public String name;
-	public String CountryCode;
-	public String District;
-	public int Population;
+	// public String CountryCode;
+	// public String District;
+	// public int Population;
 	
 	// 如果沒有定義存取介面會跳錯
 	public int getid(){
@@ -16,13 +16,13 @@ public class City {
 		this.id=id;
 	}
 	
-//	public int getName(){
-//		return this.id;
-//	}
-//	
-//	public void setName(String name){
-//		this.name=name;
-//	}
+	public String getName(){
+		return this.name;
+	}
+	
+	public void setName(String name){
+		this.name=name;
+	}
 //	
 //	public String getCountryCode(){
 //		return this.CountryCode;

@@ -33,11 +33,11 @@ public class test {
 		while(city.hasNext()){
 			City a_city = (City) city.next();
 			System.out.println(a_city.getid());
+			System.out.println(a_city.getName());
+			break;
 		}
 		
 		c.close();
-		
-		System.out.println("1324");
 	}
 
 }

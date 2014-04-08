@@ -1,9 +1,9 @@
 // 終端機編譯：
-// 	javac -classpath C:/Users/scott/Downloads/hibernate-release-4.2.11.Final/lib/required/*;. test.java
+// 	javac -classpath C:/Users/scott/Downloads/hibernate-release-4.2.11.Final/lib/required/*;C:/Program Files (x86)/MySQL/onnector J 5.1.26/*;. test.java
 // 	-classpath C:/Users/scott/Downloads/hibernate-release-4.2.11.Final/lib/required/*;. 其中 . 代表當前路徑, 因為有 City Class。
 
 // 終端機執行：
-// 	java -classpath C:/Users/scott/Downloads/hibernate-release-4.2.11.Final/lib/required/*;. test
+// 	java -classpath C:/Users/scott/Downloads/hibernate-release-4.2.11.Final/lib/required/*;C:/Program Files (x86)/MySQL/onnector J 5.1.26/*;. test
 
 import org.zttc.itat.model.City;
 import java.util.Iterator;
@@ -12,7 +12,6 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.service.*;
-
 
 public class test {
 
@@ -33,7 +32,7 @@ public class test {
 		
 		while(city.hasNext()){
 			City a_city = (City) city.next();
-			System.out.println(a_city.id);
+			System.out.println(a_city.getid());
 		}
 		
 		c.close();
